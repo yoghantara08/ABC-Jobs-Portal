@@ -65,3 +65,6 @@ mysql> create database abc_jobs
 <img src="./images/thread-post.png" alt="thread" width="50%"/>
 <p>Thread Detail</p>
 <img src="./images/thread-detail.png" alt="thread" width="50%"/>
+<p>Admin Pages</p>
+<img src="./images/admin1.png" alt="admin" width="50%"/>
+<img src="./images/admin2.png" alt="admin" width="50%"/>
