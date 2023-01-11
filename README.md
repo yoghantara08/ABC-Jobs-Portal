@@ -28,12 +28,12 @@ Server   : Apache Tomcat 9.0 <br/>
 IDE      : Eclipse IDE JEE 2022
 
 ## HOW TO RUN
-###**Import Existing Project into Eclipse IDE** <br/>
-**Create MySQL database**
+1. **Import Existing Project into Eclipse IDE** <br/>
+2. **Create MySQL database**
 ```bash
 mysql> create database abc_jobs
 ```
-**Configure persistence.xml for Database Username and Password**
+3. **Configure persistence.xml for Database Username and Password**
 ```xml
 <persistence-unit name="abcjob">
   <properties>
@@ -46,3 +46,22 @@ mysql> create database abc_jobs
   </properties>
 </persistence-unit>
 ```
+4. **Run application on Tomcat Server 9.0**
+
+## Screenshot
+<p>Home Page</p>
+<img src="./images/home.png" alt="home_page" width="50%"/>
+<p>Register</p>
+<img src="./images/register.png" alt="register" width="50%"/>
+<p>Login</p>
+<img src="./images/login.png" alt="login" width="50%"/>
+<p>Profile page</p>
+<img src="./images/profile.png" alt="profile" width="50%"/>
+<p>Search User</p>
+<img src="./images/search-user.png" alt="search" width="50%"/>
+<p>Jobs Page</p>
+<img src="./images/jobs.png" alt="jobs" width="50%"/>
+<p>Thread Posts</p>
+<img src="./images/thread-post.png" alt="thread" width="50%"/>
+<p>Thread Detail</p>
+<img src="./images/thread-detail.png" alt="thread" width="50%"/>
