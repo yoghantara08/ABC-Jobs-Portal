@@ -28,20 +28,21 @@ Server   : Apache Tomcat 9.0 <br/>
 IDE      : Eclipse IDE JEE 2022
 
 ## HOW TO RUN
+###**Import Existing Project into Eclipse IDE** <br/>
 **Create MySQL database**
 ```bash
 mysql> create database abc_jobs
 ```
-**Create MySQL database**
+**Configure persistence.xml for Database Username and Password**
 ```xml
 <persistence-unit name="abcjob">
-		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/abc_jobs" />
-			<property name="javax.persistence.jdbc.user" value="<YOUR_DB_USERNAME>" />
-			<property name="javax.persistence.jdbc.password" value="<YOUR_DB_PASSWORD>" />
-			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="hibernate.show_sql" value="true" />
-			<property name="hibernate.format_sql" value="true" />
-		</properties>
+  <properties>
+    <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/abc_jobs" />
+    <property name="javax.persistence.jdbc.user" value="<YOUR_DB_USERNAME>" />
+    <property name="javax.persistence.jdbc.password" value="<YOUR_DB_PASSWORD>" />
+    <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+    <property name="hibernate.show_sql" value="true" />
+    <property name="hibernate.format_sql" value="true" />
+  </properties>
 </persistence-unit>
 ```
