@@ -1,6 +1,9 @@
 # ABC-Jobs-Portal
-Web application works similar to Linkedin created with Spring MVC, MySQL, and Bootstrap
-
+Web application works similar to Linkedin that allows user find a job and apply for job
+oppurtunities. User can register and login to the website, search another user,
+edit profile, change password, post a thread, comment thread post. The
+application also includes administration that has authority to manage the
+user data and also sending bulk email with email sender.
 
 
 ## Project Overview
